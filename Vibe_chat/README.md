@@ -27,4 +27,4 @@
 
 5. 실행 결과
 
-![vibe_chat](vibe_chat.png)
+    ![vibe_chat](vibe_chat.png)
