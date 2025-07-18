@@ -45,3 +45,18 @@ git reset [옵션] <commit id>
     - 삭제된 commit의 기록을 working directory에 남김 (기본 옵션 값)
 - --hard
     - 삭제된 commit의 기록을 남기지 않음
+
+## Restore
+### Git restore
+Modified 상태의 파일 되돌리기
+
+Working Directory에서 파일을 수정한 뒤, 파일의 수정 사항을 취소하고, 원래 모습대로 되돌리는 작업
+
+```
+git restore
+ex) git resetore README.md
+```
+
+### Restore 주의 사항
+- 원래 파일로 덮어쓰는 원리이기 때문에 수정한 내용은 전부 사라짐
+- git restore를 통해 수정 취소 후에는 해당 내용을 복원할 수 없음
